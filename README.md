@@ -70,7 +70,7 @@ Full path fuzzy file, buffer, mru, tag, ... finder for Vim.
 | Ctrl + r                              | Toggle between the string mode and full regexp mode               |
 | Ctrl + t                              | Open the selected file in a new 'tab'.                            |
 | Ctrl + v                              | Open the selected file in a 'vertical' split.                     |
-| Ctrl + x | Ctrl + s | Ctrl + CR       | Open the selected file in a 'horizontal' split.                   |
+| Ctrl + x \| Ctrl + s \| Ctrl + CR     | Open the selected file in a 'horizontal' split.                   |
 | Ctrl + z                              | Mark/unmark multiple files and <c-o> to open them.                |
 
 ### EasyMotion
