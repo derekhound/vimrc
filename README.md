@@ -3,7 +3,9 @@
 
 ## Quick Start
 
-### Install Vim Configuration Files
+### Auto Install Config Files
+
+### Manual Install Config Files
 
 Run these commands to get this Vim configuration working on Linux machine. You can run git pull inside of ~/.vim if you'd ever like to grab the latest version.
 
@@ -18,7 +20,6 @@ Open Vim first and then run this command to install plugins.
 
     :PlugInstall
 
-
 #### Update
 
 Open Vim first and then run this command to update plugins.
@@ -26,10 +27,9 @@ Open Vim first and then run this command to update plugins.
     :PlugUpdate
 
 
-## General
+## [Plug](https://github.com/junegunn/vim-plug)
 
-
-## Plug
+A minimalist Vim plugin manager.
 
 | Command                               | Description                                                       |
 | ------------------------------------  | ----------------------------------------------------------------- |
@@ -42,10 +42,12 @@ Open Vim first and then run this command to update plugins.
 | PlugSnapshot[!] [output path]`        | Generate script for restoring the current snapshot of the plugins |
 
 
-## GitGutter
+## [GitGutter](https://github.com/airblade/vim-gitgutter)
+
+A Vim plugin which shows a git diff in the 'gutter' (sign column). It shows whether each line has been added, modified, and where lines have been removed. You can also stage and undo individual hunks.
 
 
-## CtrlP
+## [CtrlP](https://github.com/kien/ctrlp.vim)
 
 Full path fuzzy file, buffer, mru, tag, ... finder for Vim.
 
