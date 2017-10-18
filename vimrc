@@ -358,14 +358,14 @@ let g:airline#extensions#hunks#enabled = 0
 " order, height and position of the match window
 let g:ctrlp_match_window = 'bottom,order:ttb'
 
-" jump to an open buffer if already opened
-let g:ctrlp_switch_buffer = 0
-
 " how to set CtrlP's local working directory
 let g:ctrlp_working_path_mode = 0
 
 " hide stuff when using globpath()
-let g:ctrlp_custom_ignore = '\vbuild/|dist/|venv/|target/|\.(o|swp|pyc|egg)$'
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\v[\/]\.(git|hg|svn)$',
+  \ 'file': '\v\.(exe|so|dll)$',
+  \ }
 
 " }}}
 
