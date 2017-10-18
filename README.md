@@ -26,13 +26,10 @@ Open Vim first and then run this command to update plugins.
     :PlugUpdate
 
 
-## Usage ##
+## General
 
 
-### General
-
-
-### Plug
+## Plug
 
 | Command                               | Description                                                       |
 | ------------------------------------  | ----------------------------------------------------------------- |
@@ -45,14 +42,14 @@ Open Vim first and then run this command to update plugins.
 | PlugSnapshot[!] [output path]`        | Generate script for restoring the current snapshot of the plugins |
 
 
-### GitGutter
+## GitGutter
 
 
-### CtrlP
+## CtrlP
 
 Full path fuzzy file, buffer, mru, tag, ... finder for Vim.
 
-#### Invoke CtrlP
+### Invoke CtrlP
 
 | Command                               | Description                                                       |
 | ------------------------------------- | ----------------------------------------------------------------- |
@@ -60,7 +57,7 @@ Full path fuzzy file, buffer, mru, tag, ... finder for Vim.
 | CtrlPBuffer                           | Invoke CtrlP in find buffer                                       |
 | CtrlPMRU                              | Invoke CtrlP in find MRU file mode                                |
 
-#### Once CtrlP is open
+### Once CtrlP is open
 
 | Key Bindding                          | Description                                                       |
 | ------------------------------------- | ----------------------------------------------------------------- |
@@ -73,22 +70,25 @@ Full path fuzzy file, buffer, mru, tag, ... finder for Vim.
 | Ctrl + x \| Ctrl + s \| Ctrl + CR     | Open the selected file in a 'horizontal' split.                   |
 | Ctrl + z                              | Mark/unmark multiple files and <c-o> to open them.                |
 
-### EasyMotion
+
+## EasyMotion
 
 
-### Tagbar
+## Tagbar
 
 
-### NerdTree
+## NerdTree
 
 
-### NerdCommenter
+## NerdCommenter
 
 
-### Fugitive
+## Fugitive
 
 
-### Airline
+## Airline
 
 
-### Syntastic
+## Syntastic
+
+
