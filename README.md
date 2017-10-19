@@ -1,9 +1,13 @@
-# Derek's Vim Configuration
+# Derek's vimrc
 
 
 ## Quick Start
 
 ### Auto Install Config Files
+
+Simply run this script to install and configure this vimrc in your $HOME dir
+
+	curl -o - https://raw.githubusercontent.com/derekhound/vimrc/master/install.sh | sh
 
 ### Manual Install Config Files
 
