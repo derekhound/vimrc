@@ -85,7 +85,7 @@ Full path fuzzy file, buffer, mru, tag, ... finder for Vim.
 | Ctrl + z                              | Mark/unmark multiple files and <c-o> to open them.                |
 
 
-## [EasyMotion] (https://github.com/easymotion/vim-easymotion)
+## [EasyMotion](https://github.com/easymotion/vim-easymotion)
 
 | Key Bindding                          | Description                                                       |
 | ------------------------------------- | ----------------------------------------------------------------- |
@@ -95,7 +95,7 @@ Full path fuzzy file, buffer, mru, tag, ... finder for Vim.
 ## Tagbar
 
 
-## [NerdTree] (https://github.com/scrooloose/nerdtree)
+## [NerdTree](https://github.com/scrooloose/nerdtree)
 
 The NERDTree is a file system explorer for the Vim editor. Using this plugin, users can visually browse complex directory hierarchies, quickly open files for reading or editing, and perform basic file system operations.
 
@@ -109,7 +109,7 @@ The NERDTree is a file system explorer for the Vim editor. Using this plugin, us
 
 | Key Bindding                          | Description                                                       |
 | ------------------------------------- | ----------------------------------------------------------------- |
-| <CR>                                  | Open files, directories and bookmarks                             |
+| \<CR\>                                | Open files, directories and bookmarks                             |
 | t                                     | Open selected node/bookmark in a new tab                          |
 | T                                     | Same as 't' but keep the focus on the current tab                 |
 | i                                     | Open selected file in a split window                              |
