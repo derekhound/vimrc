@@ -174,9 +174,8 @@ set showmatch
 " remapped the leader key to , (comma) instead of the default \ (backslash)
 let mapleader=","
 
-" quickly edit/reload the vimrc file
-nnoremap <silent> <leader>ev :e $MYVIMRC<CR>
-nnoremap <silent> <leader>sv :so $MYVIMRC<CR>
+" reload the vimrc file
+nnoremap <silent> <leader>r :so $MYVIMRC<CR>
 
 " toggle line number
 nnoremap <F9> :set number!<CR>
