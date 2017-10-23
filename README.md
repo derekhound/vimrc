@@ -87,6 +87,10 @@ Full path fuzzy file, buffer, mru, tag, ... finder for Vim.
 
 ## EasyMotion
 
+| Key Bindding                          | Description                                                       |
+| ------------------------------------- | ----------------------------------------------------------------- |
+| <Leader> + <Leader> + w               | Trigger the word motion                                           |
+| <Leader> + <Leader> + f + "O"         | All "o" characters are highlighted                                |
 
 ## Tagbar
 
