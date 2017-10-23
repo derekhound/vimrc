@@ -89,8 +89,8 @@ Full path fuzzy file, buffer, mru, tag, ... finder for Vim.
 
 | Key Bindding                          | Description                                                       |
 | ------------------------------------- | ----------------------------------------------------------------- |
-| <Leader> + <Leader> + w               | Trigger the word motion                                           |
-| <Leader> + <Leader> + f + "O"         | All "o" characters are highlighted                                |
+| <Leader> + <Leader> + w               | Beginning of word forward                                         |
+| <Leader> + <Leader> + b               | Beginning of word backward                                        |
 
 ## Tagbar
 
