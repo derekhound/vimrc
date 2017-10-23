@@ -50,6 +50,14 @@ A minimalist Vim plugin manager.
 
 A Vim plugin which shows a git diff in the 'gutter' (sign column). It shows whether each line has been added, modified, and where lines have been removed. You can also stage and undo individual hunks.
 
+| Command                               | Description                                                       |
+| ------------------------------------- | ----------------------------------------------------------------- |
+| GitGutterToggle                       | You can explicitly turn vim-gitgutter off and on                  |
+
+| Key Bindding                          | Description                                                       |
+| ------------------------------------- | ----------------------------------------------------------------- |
+| ] + c (change)                        | Jump to next hunk (change)                                        |
+| [ + c (change)                        | Jump to previous hunk (change)                                    |
 
 ## [CtrlP](https://github.com/kien/ctrlp.vim)
 
