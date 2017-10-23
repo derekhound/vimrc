@@ -89,8 +89,8 @@ Full path fuzzy file, buffer, mru, tag, ... finder for Vim.
 
 | Key Bindding                          | Description                                                       |
 | ------------------------------------- | ----------------------------------------------------------------- |
-| <Leader> + <Leader> + w               | Beginning of word forward                                         |
-| <Leader> + <Leader> + b               | Beginning of word backward                                        |
+| \<Leader\> + \<Leader\> + w           | Beginning of word forward                                         |
+| \<Leader\> + \<Leader\> + b           | Beginning of word backward                                        |
 
 ## Tagbar
 
