@@ -7,7 +7,7 @@
 
 Simply run this script to install and configure this vimrc in your $HOME dir
 
-	curl -o - https://raw.githubusercontent.com/derekhound/vimrc/master/install.sh | sh
+    curl -o - https://raw.githubusercontent.com/derekhound/vimrc/master/install.sh | sh
 
 ### Manual Install Config Files
 
@@ -120,7 +120,15 @@ The NERDTree is a file system explorer for the Vim editor. Using this plugin, us
 ## NerdCommenter
 
 
-## Fugitive
+## [Fugitive](https://github.com/tpope/vim-fugitive)
+
+Fugitive.vim may very well be the best Git wrapper of all time
+
+| Command                               | Description                                                       |
+| ------------------------------------- | ----------------------------------------------------------------- |
+| Gstatus                               | Bring up the output of git-status in the preview window.          |
+| Gdiff                                 | Perform a vimdiff against the current file in the given revision. |
+| Gblame                                | Run git-blame on the file and open the results in a split window. |
 
 
 ## Airline
