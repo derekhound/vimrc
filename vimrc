@@ -84,7 +84,7 @@ nnoremap k gk
 " Spaces & Tabs {{{
 
 " hitting Tab in insert mode will produce the appropriate number of spaces
-set noexpandtab
+set expandtab
 
 " how many columns a tab counts for
 set tabstop=4
