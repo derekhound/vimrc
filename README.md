@@ -92,8 +92,15 @@ Full path fuzzy file, buffer, mru, tag, ... finder for Vim.
 | \<Leader\> + \<Leader\> + w           | Beginning of word forward                                         |
 | \<Leader\> + \<Leader\> + b           | Beginning of word backward                                        |
 
-## Tagbar
+## [Tagbar](https://github.com/majutsushi/tagbar)
 
+Tagbar is a Vim plugin that provides an easy way to browse the tags of the current file and get an overview of its structure. It does this by creating a sidebar that displays the ctags-generated tags of the current file, ordered by their scope.
+
+### Invoke Tagbar
+
+| Command                               | Description                                                       |
+| ------------------------------------- | ----------------------------------------------------------------- |
+| F2                                    | Toggle Tagbar window                                            |
 
 ## [NerdTree](https://github.com/scrooloose/nerdtree)
 
@@ -117,12 +124,26 @@ The NERDTree is a file system explorer for the Vim editor. Using this plugin, us
 | s                                     | Open selected file in a new vsplit                                |
 | gi                                    | Same as s, but leave the cursor on the NERDTree                   |
 
-## NerdCommenter
+
+## [NerdCommenter](https://github.com/scrooloose/nerdcommenter)
+
+Comment functions so powerful—no comment necessary.
+
+### In normal mode or visual mode.
+
+You can also add [count] before leader key in normal mode.
+
+| Key Bindding                          | Description                                                       |
+| ------------------------------------- | ----------------------------------------------------------------- |
+| \<Leader\> + c + c                    | Comment out the current line or text selected in visual mode.     |
+| \<Leader\> + c + u                    | Uncomments the selected lines.                                    |
+| \<Leader\> + c + \<SPACE\>            | Toggles the comment state of the selected lines.                  |
+| \<Leader\> + c + y                    | Same as cc except that the commented lines are yanked first.      |
 
 
 ## [Fugitive](https://github.com/tpope/vim-fugitive)
 
-Fugitive.vim may very well be the best Git wrapper of all time
+Fugitive.vim may very well be the best Git wrapper of all time.
 
 | Command                               | Description                                                       |
 | ------------------------------------- | ----------------------------------------------------------------- |
@@ -131,9 +152,15 @@ Fugitive.vim may very well be the best Git wrapper of all time
 | Gblame                                | Run git-blame on the file and open the results in a split window. |
 
 
-## Airline
+## [Airline](https://github.com/vim-airline/vim-airline)
+
+Lean & mean status/tabline for vim that's light as air.
 
 
-## Syntastic
+## [Syntastic](https://github.com/vim-syntastic/syntastic)
 
+Syntastic is a syntax checking plugin for Vim created by Martin Grenfell. It runs files through external syntax checkers and displays any resulting errors to the user. This can be done on demand, or automatically as files are saved. If syntax errors are detected, the user is notified and is happy because they didn't have to compile their code or execute their script to find them.
 
+| Command                               | Description                                                       |
+| ------------------------------------- | ----------------------------------------------------------------- |
+| F5                                    | Check syntax and open Error window                                |
