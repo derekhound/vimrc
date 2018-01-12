@@ -163,4 +163,4 @@ Syntastic is a syntax checking plugin for Vim created by Martin Grenfell. It run
 
 | Command                               | Description                                                       |
 | ------------------------------------- | ----------------------------------------------------------------- |
-| F5                                    | Check syntax and open Error window                                |
+| F9                                    | Check syntax and open Error window                                |

@@ -178,10 +178,10 @@ let mapleader=","
 nnoremap <silent> <leader>r :so $MYVIMRC<CR>
 
 " toggle line number
-nnoremap <F9> :set number!<CR>
-nnoremap <F10> :set list!<CR>
-nnoremap <F11> :set paste!<CR>
-nnoremap <F12> :set wrap!<CR>
+nnoremap <F5> :set number!<CR>
+nnoremap <F6> :set list!<CR>
+nnoremap <F7> :set paste!<CR>
+nnoremap <F8> :GitGutterToggle<CR>
 
 " fast saving
 nnoremap <leader>w :w!<CR>
@@ -428,7 +428,7 @@ let g:neocomplcache_min_syntax_length = 3
 " https://github.com/vim-syntastic/syntastic
 
 " shortcuts
-nnoremap <F5> :SyntasticCheck<CR>:Errors<CR>
+nnoremap <F9> :SyntasticCheck<CR>:Errors<CR>
 
 " }}}
 
