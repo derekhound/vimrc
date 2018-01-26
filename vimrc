@@ -134,7 +134,7 @@ set hlsearch
 " Don't ring the bell (beep or screen flash) for error messages.
 set noerrorbells
 
-" Dont't use visual bell.  The terminal code to display the visual bell is 
+" Dont't use visual bell.  The terminal code to display the visual bell is
 " given with 't_vb'.
 set novisualbell        " don't use visual bell
 set t_vb=               " the terminal code to display the visual bell
@@ -212,7 +212,7 @@ augroup END
 
 " Functions {{{
 
-" move the cursor to its last position 
+" move the cursor to its last position
 function! <SID>PositionCursor()
     if line("'\"") > 0 && line("'\"") <= line("$")
         exe "normal! g`\""
@@ -386,7 +386,7 @@ nnoremap <F3> :NERDTreeToggle<CR>
 " show the bookmarks table on startup
 let NERDTreeShowBookmarks=1
 
-" display files 
+" display files
 let NERDTreeShowFiles=1
 
 " display hidden files
@@ -426,7 +426,7 @@ let g:neocomplcache_min_syntax_length = 3
 "
 " Syntastic is a syntax checking plugin for Vim created by Martin Grenfell. It
 " runs files through external syntax checkers and displays any resulting
-" errors to the user. 
+" errors to the user.
 "
 " https://github.com/vim-syntastic/syntastic
 
@@ -452,6 +452,16 @@ let g:tagbar_left = 1
 
 " width of the tagbar window
 let g:tagbar_width = 30
+
+" }}}
+
+" Plugin: Vim-go {{{
+"
+" This plugin adds Go language support for Vim.
+"
+" https://github.com/fatih/vim-go
+
+let g:go_def_mode = 'godef'
 
 " }}}
 

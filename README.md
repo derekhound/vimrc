@@ -157,6 +157,11 @@ Fugitive.vim may very well be the best Git wrapper of all time.
 Lean & mean status/tabline for vim that's light as air.
 
 
+## [Vim-go](https://github.com/fatih/vim-go)
+
+This plugin adds Go language support for Vim.
+
+
 ## [Syntastic](https://github.com/vim-syntastic/syntastic)
 
 Syntastic is a syntax checking plugin for Vim created by Martin Grenfell. It runs files through external syntax checkers and displays any resulting errors to the user. This can be done on demand, or automatically as files are saved. If syntax errors are detected, the user is notified and is happy because they didn't have to compile their code or execute their script to find them.
