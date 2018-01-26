@@ -143,7 +143,9 @@ set t_vb=               " the terminal code to display the visual bell
 
 " Tags {{{
 
-set tags+=tags,~/tags
+"the magic is the ‘;’ at end. it will make vim tags file search go up from
+"current directory until it finds one.
+set tags=.tags;
 
 " }}}
 
